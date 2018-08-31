@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        sample-source:
+          destination: testtock
+        input:
+          destination: testtock
+        output:
+          destination: xformed
+        sample-sink:
+          destination: xformed
+
+solace:
+  java:
+    host: localhost
+    msgVpn: default
+    clientUsername: default
+    clientPassword: default
+    connectRetries: -1
+    reconnectRetries: -1
