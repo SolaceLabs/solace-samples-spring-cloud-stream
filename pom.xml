@@ -163,6 +163,8 @@
         <gpg.passphrase>Solace1!</gpg.passphrase>
       </properties>
 	  <modules>
+        <module>dynamic-destination-source</module>
+        <module>reactive-processor</module>
 	    <module>streamlistener-basic</module>
 	  </modules>
       <distributionManagement>
@@ -217,6 +219,8 @@
         </property>
       </activation>
 	  <modules>
+        <module>dynamic-destination-source</module>
+        <module>reactive-processor</module>
         <module>streamlistener-basic</module>
 	  </modules>
       <distributionManagement>
