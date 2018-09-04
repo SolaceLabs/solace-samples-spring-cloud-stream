@@ -39,7 +39,6 @@
 				<dependency>
 					<groupId>com.solace.spring.cloud</groupId>
 					<artifactId>spring-cloud-stream-binder-solace</artifactId>
-					<version>0.0.10-SNAPSHOT</version>
 				</dependency>
 			</dependencies>
 		</profile>

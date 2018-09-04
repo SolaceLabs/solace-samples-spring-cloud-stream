@@ -2,14 +2,14 @@ spring:
   cloud:
     stream:
       bindings:
-        sample-source:
-          destination: testtock
+        output:
+          destination: transformed
+        test-sink:
+          destination: transformed
         input:
           destination: testtock
-        output:
-          destination: xformed
-        sample-sink:
-          destination: xformed
+        test-source:
+          destination: testtock
 
 solace:
   java:

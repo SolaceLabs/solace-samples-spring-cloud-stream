@@ -1,0 +1,36 @@
+Spring Cloud Stream Reactive Processor Basic Sample
+==================================================
+
+In this *Solace Spring Cloud Stream* sample, the application demonstrates basic reactive processing.
+
+## Requirements
+
+To run this sample, you will need to have installed:
+
+* Java 8 or Above
+
+## Running the application
+
+The following instructions assume that you have the credentials for a real Solace PubSub+ service.
+
+* Put your Solace credentials in the link:src/main/resources/application.properties[application.properties] file
+* Go to the application root
+* `./mvnw clean package`
+* `java -jar target/reactive-processor-0.0.1-SNAPSHOT.jar`
+
+The main application contains the reactive processor that receives textual data for a duration and aggregates them.
+It then sends the aggregated data through the outbound destination of the processor.
+
+The application also provides a source and sink for testing.
+Test source will generate some text every second and the test sink will verify that the processor has accumulated the text over a duration.
+Test source is bound to the same broker destination where the processor is listening from.
+Similarly test sink is bound to the same broker destination where the processor is producing to.
+
+You will see output similar to the following on the console every 5 seconds.
+
+```
+Data received: foobarfoobarfoo
+Data received: barfoobarfoobar
+Data received: foobarfoobarfoo
+Data received: foobarfoobarfoo
+```

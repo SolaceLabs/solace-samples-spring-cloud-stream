@@ -80,6 +80,12 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+
+      <dependency>
+        <groupId>com.solace.spring.cloud</groupId>
+        <artifactId>spring-cloud-stream-binder-solace</artifactId>
+        <version>0.0.10</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
