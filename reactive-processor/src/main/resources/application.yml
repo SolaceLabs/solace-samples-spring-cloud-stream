@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: transformed
+        test-sink:
+          destination: transformed
+        input:
+          destination: testtock
+        test-source:
+          destination: testtock
+
+solace:
+  java:
+    host: localhost
+    msgVpn: default
+    clientUsername: default
+    clientPassword: default
+    connectRetries: -1
+    reconnectRetries: -1

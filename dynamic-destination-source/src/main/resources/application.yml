@@ -1,0 +1,12 @@
+# Input bindings used for testing
+spring.cloud.stream.bindings.input1.destination: customerId-1
+spring.cloud.stream.bindings.input2.destination: customerId-2
+
+solace:
+  java:
+    host: localhost
+    msgVpn: default
+    clientUsername: default
+    clientPassword: default
+    connectRetries: -1
+    reconnectRetries: -1
