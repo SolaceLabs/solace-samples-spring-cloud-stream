@@ -1,6 +1,6 @@
 # Spring Cloud Streams - Getting Started Examples
 
-These samples have been hand-picked from the [Spring Cloud Stream samples](https://github.com/spring-cloud/spring-cloud-stream-samples) project in order to demonstrate the functionality of the [Spring Cloud Stream Binder for Solace PubSub+](https://github.com/SolaceDev/spring-cloud-stream-binder-solace). Aside from their configuration, these applications have remained mostly untouched.
+These samples have been hand-picked from the [Spring Cloud Stream samples](https://github.com/spring-cloud/spring-cloud-stream-samples) project in order to demonstrate the functionality of the [Spring Cloud Stream Binder for Solace PubSub+](https://github.com/SolaceLabs/spring-cloud-stream-binder-solace). Aside from their configuration, these applications have remained mostly untouched.
 
 ## Spring Cloud Stream Binder for Solace PubSub+
 

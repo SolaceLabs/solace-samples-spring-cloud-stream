@@ -1,7 +1,7 @@
 Spring Cloud Stream Sink Sample
 ================================
 
-This sample is one of the original Spring Cloud Stream samples that was hand-picked to demonstrate the link:https://github.com/SolaceDev/spring-cloud-stream-binder-solace[Solace Spring Cloud Stream Binder]. The original source for this sample can be found link:https://github.com/spring-cloud/spring-cloud-stream-samples/tree/master/sink-samples/jdbc-sink[here].
+This sample is one of the original Spring Cloud Stream samples that was hand-picked to demonstrate the link:https://github.com/SolaceLabs/spring-cloud-stream-binder-solace[Solace Spring Cloud Stream Binder]. The original source for this sample can be found link:https://github.com/spring-cloud/spring-cloud-stream-samples/tree/master/sink-samples/jdbc-sink[here].
 
 ## What is this app?
 
