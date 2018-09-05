@@ -32,7 +32,7 @@ Just clone and build. For example:
 To run the individual applications:
 
 1. cd to the project directory (e.g. `streamlistener-basic`)
-1. `java -jar target/{PROJECT-NAME}-0.0.1-SNAPSHOT.jar`
+1. `java -jar target/{PROJECT-NAME}-0.1.0-SNAPSHOT.jar`
 
 Aside from the initial configuration of their `application.yml` files, each sample was designed to run with minimal intervention from the user. Unless specified otherwise in that application's specific documentation, the application can be observed by just watching its log output.
 

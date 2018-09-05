@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.solace.spring.cloud.samples</groupId>
   <artifactId>solace-samples-spring-cloud-stream-parent</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Solace Spring Cloud Stream Samples</name>
   <description>Parent POM for the Solace Spring Cloud Stream Samples</description>
