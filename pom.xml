@@ -7,7 +7,7 @@
   <packaging>pom</packaging>
   <name>Solace Spring Cloud Stream Samples</name>
   <description>Parent POM for the Solace Spring Cloud Stream Samples</description>
-  <url>https://github.com/SolaceDev/solace-samples-spring-cloud-stream</url>
+  <url>https://github.com/SolaceLabs/solace-samples-spring-cloud-stream</url>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -33,9 +33,9 @@
   </developers>
 
   <scm>
-    <url>https://github.com/SolaceDev/solace-samples-spring-cloud-stream.git</url>
-    <connection>scm:git:git://github.com/SolaceDev/solace-samples-spring-cloud-stream.git</connection>
-    <developerConnection>scm:git:git@github.com:SolaceDev/solace-samples-spring-cloud-stream.git</developerConnection>
+    <url>https://github.com/SolaceLabs/solace-samples-spring-cloud-stream.git</url>
+    <connection>scm:git:git://github.com/SolaceLabs/solace-samples-spring-cloud-stream.git</connection>
+    <developerConnection>scm:git:git@github.com:SolaceLabs/solace-samples-spring-cloud-stream.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
