@@ -1,7 +1,7 @@
 Spring Cloud Stream Source with Dynamic Destinations
 ====================================================
 
-This sample is one of the original Spring Cloud Stream samples that was hand-picked to demonstrate the link:https://github.com/SolaceLabs/spring-cloud-stream-binder-solace[Solace Spring Cloud Stream Binder]. The original source for this sample can be found link:https://github.com/spring-cloud/spring-cloud-stream-samples/tree/master/source-samples/dynamic-destination-source[here].
+This sample is one of the original Spring Cloud Stream samples that was hand-picked to demonstrate the link:https://github.com/SolaceProducts/spring-cloud-stream-binder-solace[Solace Spring Cloud Stream Binder]. The original source for this sample can be found link:https://github.com/spring-cloud/spring-cloud-stream-samples/tree/master/source-samples/dynamic-destination-source[here].
 
 In this *Solace Spring Cloud Stream* sample, a source application publishes messages to dynamically created destinations.
 
