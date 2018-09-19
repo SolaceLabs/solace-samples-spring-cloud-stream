@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/SolaceSamples/solace-samples-spring-cloud-stream.svg?branch=master)](https://travis-ci.org/SolaceSamples/solace-samples-spring-cloud-stream)
+
 # Spring Cloud Streams - Getting Started Examples
 
 These samples have been hand-picked from the [Spring Cloud Stream samples](https://github.com/spring-cloud/spring-cloud-stream-samples) project in order to demonstrate the functionality of the [Spring Cloud Stream Binder for Solace PubSub+](https://github.com/SolaceProducts/spring-cloud-stream-binder-solace). Aside from their configuration, these applications have remained mostly untouched.
