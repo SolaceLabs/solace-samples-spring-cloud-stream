@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/SolaceSamples/solace-samples-spring-cloud-stream.svg?branch=master)](https://travis-ci.org/SolaceSamples/solace-samples-spring-cloud-stream)
+[![Build Status](https://travis-ci.org/SolaceLabs/solace-samples-spring-cloud-stream.svg?branch=master)](https://travis-ci.org/SolaceLabs/solace-samples-spring-cloud-stream)
 
 # Spring Cloud Streams - Getting Started Examples
 
@@ -44,7 +44,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Authors
 
-See the list of [contributors](https://github.com/SolaceSamples/solace-samples-spring-cloud-stream/contributors) who participated in this project.
+See the list of [contributors](https://github.com/SolaceLabs/solace-samples-spring-cloud-stream/contributors) who participated in this project.
 
 ## License
 
