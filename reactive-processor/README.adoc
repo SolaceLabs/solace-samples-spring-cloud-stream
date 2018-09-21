@@ -1,7 +1,7 @@
 Spring Cloud Stream Reactive Processor Basic Sample
 ==================================================
 
-This sample is one of the original Spring Cloud Stream samples that was hand-picked to demonstrate the link:https://github.com/SolaceLabs/spring-cloud-stream-binder-solace[Solace Spring Cloud Stream Binder]. The original source for this sample can be found link:https://github.com/spring-cloud/spring-cloud-stream-samples/tree/master/processor-samples/reactive-processor[here].
+This sample is one of the original Spring Cloud Stream samples that was hand-picked to demonstrate the link:https://github.com/SolaceProducts/spring-cloud-stream-binder-solace[Solace Spring Cloud Stream Binder]. The original source for this sample can be found link:https://github.com/spring-cloud/spring-cloud-stream-samples/tree/master/processor-samples/reactive-processor[here].
 
 In this *Solace Spring Cloud Stream* sample, the application demonstrates basic reactive processing.
 

@@ -1,10 +1,12 @@
+[![Build Status](https://travis-ci.org/SolaceLabs/solace-samples-spring-cloud-stream.svg?branch=master)](https://travis-ci.org/SolaceLabs/solace-samples-spring-cloud-stream)
+
 # Spring Cloud Streams - Getting Started Examples
 
-These samples have been hand-picked from the [Spring Cloud Stream samples](https://github.com/spring-cloud/spring-cloud-stream-samples) project in order to demonstrate the functionality of the [Spring Cloud Stream Binder for Solace PubSub+](https://github.com/SolaceLabs/spring-cloud-stream-binder-solace). Aside from their configuration, these applications have remained mostly untouched.
+These samples have been hand-picked from the [Spring Cloud Stream samples](https://github.com/spring-cloud/spring-cloud-stream-samples) project in order to demonstrate the functionality of the [Spring Cloud Stream Binder for Solace PubSub+](https://github.com/SolaceProducts/spring-cloud-stream-binder-solace). Aside from their configuration, these applications have remained mostly untouched.
 
 ## Spring Cloud Stream Binder for Solace PubSub+
 
-The repository contains example applications that uses a Solace implementation of Spring's Cloud Stream Binder for connecting applications to Solace Pubsub+ services. You can get more details on the Spring Cloud Stream Binder for Solace PubSub+ [here](https://github.com/SolaceLabs/spring-cloud-stream-binder-solace/).
+The repository contains example applications that uses a Solace implementation of Spring's Cloud Stream Binder for connecting applications to Solace Pubsub+ services. You can get more details on the Spring Cloud Stream Binder for Solace PubSub+ [here](https://github.com/SolaceProducts/spring-cloud-stream-binder-solace/).
 
 This repository contains sample applications which demonstrate the following use cases:
 
@@ -42,7 +44,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Authors
 
-See the list of [contributors](https://github.com/SolaceSamples/solace-samples-spring-cloud-stream/contributors) who participated in this project.
+See the list of [contributors](https://github.com/SolaceLabs/solace-samples-spring-cloud-stream/contributors) who participated in this project.
 
 ## License
 
@@ -52,7 +54,7 @@ This project is licensed under the Apache License, Version 2.0. - See the [LICEN
 
 For more information about the Spring Cloud Streams Binder for Solace PubSub+:
 
-- [Github Source - Spring Cloud Streams Binder for Solace PubSub+](https://github.com/SolaceLabs/spring-cloud-stream-binder-solace/)
+- [Github Source - Spring Cloud Streams Binder for Solace PubSub+](https://github.com/SolaceProducts/spring-cloud-stream-binder-solace/)
 
 For more information about Spring Cloud Streams try these resources:
 
