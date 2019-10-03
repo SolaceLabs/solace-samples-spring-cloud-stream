@@ -53,7 +53,7 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
 
-    <spring-cloud-stream.version>2.1.0.RELEASE</spring-cloud-stream.version>
+    <spring-cloud-stream.version>2.2.0.RC1</spring-cloud-stream.version>
   </properties>
 
   <repositories>
@@ -83,7 +83,7 @@
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-stream-dependencies</artifactId>
-        <version>Fishtown.RELEASE</version>
+        <version>Germantown.M1</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -91,7 +91,7 @@
       <dependency>
         <groupId>com.solace.spring.cloud</groupId>
         <artifactId>spring-cloud-stream-binder-solace</artifactId>
-        <version>1.1.0</version>
+        <version>1.2.0-SNAPSHOT</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
