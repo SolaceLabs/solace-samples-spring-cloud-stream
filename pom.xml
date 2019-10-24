@@ -69,7 +69,7 @@
       <dependency>
         <groupId>com.solace.spring.cloud</groupId>
         <artifactId>spring-cloud-stream-binder-solace</artifactId>
-        <version>1.2.0-SNAPSHOT</version>
+        <version>1.2.0</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
