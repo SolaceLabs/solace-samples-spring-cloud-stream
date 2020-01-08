@@ -4,17 +4,41 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>jdbc-sink</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>sample-jdbc-sink</name>
 	<description>Spring Cloud Stream Sample JDBC Sink App</description>
 
 	<parent>
-		<groupId>com.solace.spring.cloud.samples</groupId>
-		<artifactId>solace-samples-spring-cloud-stream-parent</artifactId>
-		<version>0.1.0-SNAPSHOT</version>
-		<relativePath>../pom.xml</relativePath>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.2.0.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
+	<properties>
+		<spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
+		<solace-spring-cloud-bom.version>1.0.0-SNAPSHOT</solace-spring-cloud-bom.version>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.solace.spring.cloud</groupId>
+				<artifactId>solace-spring-cloud-bom</artifactId>
+				<version>${solace-spring-cloud-bom.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 	<dependencies>
 		<dependency>
