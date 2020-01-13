@@ -81,7 +81,7 @@
 			<dependencies>
 				<dependency>
 					<groupId>com.solace.spring.cloud</groupId>
-					<artifactId>spring-cloud-stream-binder-solace</artifactId>
+					<artifactId>spring-cloud-starter-stream-solace</artifactId>
 				</dependency>
 			</dependencies>
 		</profile>
