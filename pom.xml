@@ -48,7 +48,7 @@
 
     <spring-boot.version>2.2.0.RELEASE</spring-boot.version>
     <spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
-    <solace-spring-cloud-bom.version>1.0.0-SNAPSHOT</solace-spring-cloud-bom.version>
+    <solace-spring-cloud-bom.version>1.0.0</solace-spring-cloud-bom.version>
   </properties>
 
   <repositories>
