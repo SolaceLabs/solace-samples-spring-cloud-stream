@@ -24,7 +24,7 @@ The following instructions assume that you have the credentials for a real Solac
 * Put your Solace credentials in the link:src/main/resources/application.yml[application.yml] file
 * Go to the application root
 * `./mvnw clean package`
-* `java -jar target/dynamic-destination-source-0.1.0-SNAPSHOT.jar`
+* `java -jar target/dynamic-destination-source-0.0.1-SNAPSHOT.jar`
 
 Upon starting the application on the default port 8080, if the following data are sent:
 

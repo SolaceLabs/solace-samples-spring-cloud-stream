@@ -19,3 +19,4 @@ solace:
     clientPassword: default
     connectRetries: -1
     reconnectRetries: -1
+
